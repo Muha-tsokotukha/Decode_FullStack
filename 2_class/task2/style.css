@@ -1,0 +1,17 @@
+img{
+    border-radius: 50%;
+    width: 200px;
+}
+._11{
+    font-size: 20px;
+    font-weight: bold;
+}
+._22{
+    font-size: 20px;
+    font-weight: bold;
+}
+.main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
