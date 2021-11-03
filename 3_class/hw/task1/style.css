@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+body div p{
+    font-size: large;
+}
+
+
+body div:first-child {
+    color: black;
+    font-weight: bold;
+}
+body div:nth-child(3) {
+    color: black;
+    font-weight: bold;
+}
+body div:nth-child(2) {
+    display: grid;
+    justify-items: center;
+    
+}
+
+body div:nth-child(2) p {
+    font-weight: bold;
+}
+
+body div:nth-child(2) span {
+    font-weight: 400;
+}
+body div:last-child {
+    color: red;
+    font-weight: bold;
+}
+
+
+body div:last-child span {
+    color: red;
+    font-weight: 400;
+}

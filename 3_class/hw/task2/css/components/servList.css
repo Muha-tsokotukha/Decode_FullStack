@@ -1,0 +1,126 @@
+.serviceList-top {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-top: 100px;
+    margin-right: 240px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.searchDoc {
+    border: 4px solid white;
+    border-radius: 20px;
+    padding-top: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    
+    box-shadow: 0 0px 50px rgba(0,0,0,0.05  );
+
+}
+.searchDoc div:last-child{
+    color: gray;
+    line-height: 25px;
+}
+.searchDoc img {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 25px;
+}
+._1{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.searchDoc:hover {
+    border: 4px solid rgb(0, 119, 255);
+}
+
+/*         */
+
+.pharmacy {
+    border: 4px solid white;
+    border-radius: 20px;
+    padding-top: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0 0px 50px rgba(0,0,0,0.05  );
+
+}
+.pharmacy div:last-child{
+    color: gray;
+    line-height: 25px;
+}
+.pharmacy img {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 25px;
+}
+._2{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.pharmacy:hover {
+    border: 4px solid rgb(0, 119, 255);
+}
+
+/*         */
+
+
+
+.Consultation {
+    border: 4px solid white;
+    border-radius: 20px;
+    padding-top: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0 0px 50px rgba(0,0,0,0.05  );
+
+}
+.Consultation div:last-child{
+    color: gray;
+    line-height: 25px;
+}
+.Consultation img {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 25px;
+}
+._3{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.Consultation:hover {
+    border: 4px solid rgb(0, 119, 255);
+}
+
+/*  BOTTOM  */
+
+.serviceList-bottom {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.learnButton {
+    margin-top: 72px;
+    margin-left: 750px;
+
+}
+.learnButton button {
+    border-radius: 55px;
+    border-color: rgb(0, 119, 255);
+    background-color: #fff;
+    width: 200px;
+    height: 54px;
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
