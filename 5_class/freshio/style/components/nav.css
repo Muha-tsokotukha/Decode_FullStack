@@ -1,0 +1,44 @@
+.nav {
+    height: 60px;
+    display: flex;
+    background-color: #0a472e;
+    padding: 10px;
+
+}
+
+.nav img {
+    height: 20px
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 30px;
+}
+
+.nav-left img {
+    margin-right: 20px;
+
+}
+
+.nav-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid white;
+    padding-left: 40px;
+    margin-left: 40px;
+}
+
+.nav-right a {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nav-right img {
+    height: 10px;
+    margin-right: 10px;
+}

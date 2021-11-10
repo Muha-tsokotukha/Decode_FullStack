@@ -1,0 +1,65 @@
+.features {
+    margin-top: 50px;
+}
+.f1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    color: #0a472e;
+    font-weight: 500;
+}
+
+
+.f2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+.f2 img {
+    width: 90%;
+}
+.f2 div {
+    margin-right: 30px;
+    border: 1px solid #d3d3d3; 
+    
+    
+}
+
+/* .f2-1 {
+    display: grid;
+    justify-items: center;
+} */
+
+.f2 div {
+    display: grid;
+    justify-items: center;
+    line-height: 1.7;
+    color: #bac34e;
+}
+
+.swiftup{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    top: 190px;
+    left: 0;
+    z-index: -1;
+    margin-left: 8%;
+    width: 30px;
+    height: 30px;
+    /* width: 23%; */
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .24);
+    /* padding: 20px;
+    opacity: 0; */
+    transition: .4s;
+}
+.f2-1:hover .swiftup{
+    z-index: 10;
+    opacity: 1;
+    top: 180px;
+}
