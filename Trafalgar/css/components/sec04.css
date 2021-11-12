@@ -1,0 +1,60 @@
+.sec04 {
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 570px;
+}
+/* .sec04::after {
+    content: ".";
+    color: #fff;
+    border-bottom: 2px solid #000;
+    margin-top: 50px;
+} */
+
+.sec4-line {
+    color: #fff;
+    border-bottom: 3px solid #000;
+    margin-top: 30px;
+    width: 4%;
+    margin-left: 750px;
+}
+
+.sec04-serv {
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 72px;
+}
+.sec04-serv--1 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    line-height: 1.4;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 1);   
+}
+.sec04-serv img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.sec04-serv--1 h1 {
+    margin-top: 21px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.4;    
+}
+
+.sec04-serv--1 p {
+    margin-top: 21px;
+    font-size: 16px;
+    color: gray;
+    line-height: 1.4;
+}
+.sec04-serv--1 a {
+    margin-top: 21px;
+    margin-left: -140px;
+    font-size: 17px;
+    color:  #4089ED;
+    line-height: 1.4;
+}
