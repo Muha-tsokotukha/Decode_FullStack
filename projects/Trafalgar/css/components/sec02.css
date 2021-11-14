@@ -1,0 +1,118 @@
+.sec02 {
+    margin-left: 135px;
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.sec02-info {
+    margin-right: 250px;
+    display: grid;
+    align-content: center;
+    line-height: 1.4;
+}
+.sec02-info span {
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+.sec02-info div {
+    margin-top: 40px;
+    border-bottom: 2px solid #000;
+    width: 12%;
+    transition: .4s;
+}
+
+.sec02-info:hover div {
+    width: 30%;
+    transition: .4s;
+}
+
+.sec02-info p{
+    font-size: 18px;
+    color: gray;
+    margin-top: 40px;
+}
+.sec02-info button {
+    margin-top: 40px;
+    border-radius: 55px;
+    border-color: rgb(0, 119, 255);
+    background-color: #fff;
+    width: 200px;
+    height: 54px;
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .4s;
+}
+
+.sec02-info button:hover {
+    background-color:cornflowerblue;
+    color: #fff;
+    transition: .4s;
+}
+
+
+/* sec03 */
+
+.sec03 {
+    margin-left: 280px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.sec03-info {
+    display: grid;
+    align-content: center;
+    line-height: 1.4;
+}
+.sec03 img {
+    margin-right: 165px;
+}
+.sec03-info span {
+    font-size: 36px;
+    font-weight: bold;
+}
+.sec03-info div {
+    margin-top: 40px;
+    border-bottom: 2px solid #000;
+    width: 12%;
+    transition: .4s;
+}
+.sec03-info p{
+    font-size: 18px;
+    color: gray;
+    margin-top: 40px;
+}
+
+.sec03-info button {
+    margin-top: 40px;
+    border-radius: 55px;
+    border-color: rgb(0, 119, 255);
+    background-color: #fff;
+    width: 200px;
+    height: 54px;
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .4s;
+}
+
+.sec03-info button:hover {
+    background-color:cornflowerblue;
+    color: #fff;
+    transition: .4s;
+}
+.sec03-info:hover div {
+    width: 30%;
+    transition: .4s;
+}
