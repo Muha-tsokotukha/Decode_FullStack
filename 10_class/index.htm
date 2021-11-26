@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        
+    <input type="text" placeholder="Name" id="name">
+    <input type="number" placeholder="Age"id="age">
+    <input type="number" placeholder="GPA" id="gpa">
+    <button onclick="addStudent()"> Add </button>
+
+    
+    <div class="student-header">
+        <div class="student-item">
+                <div>#</div>
+                <div>Name</div>
+                <div>Age</div>
+                <div>GPA</div>
+                <div>Action</div>
+        </div>
+
+        <div id="students" class="students"></div>
+
+    </div>
+
+    <div class="form" id="form">
+        <input type="text" placeholder="Edit Name" id="ename">
+        <input type="number" placeholder="Edit Age"id="eage">
+        <input type="number" placeholder="edit GPA" id="egpa">
+        <button onclick="edit()"> Edit </button>
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
