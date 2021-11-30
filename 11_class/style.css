@@ -1,0 +1,18 @@
+.student-item {
+    width: 100%;
+    display: flex;
+}
+.student-item > div {
+    width: 20%;
+}
+
+/* edit */
+
+.form {
+    display: none;
+}
+
+.form.active {
+    display: block;
+    
+}
