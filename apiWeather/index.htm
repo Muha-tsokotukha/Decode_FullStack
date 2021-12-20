@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+<body>
+    <div>
+        <canvas id="myChart" ></canvas>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script src="script.js"></script>
+
+    <div id="choosing">
+        <div class="choose">
+            <span id="choose-curCity">Almaty</span>
+            <button class="choose1" onclick="destroyChart(0)">Today</button>
+            <button class="choose2" onclick="destroyChart(1)">Tomorow</button>
+            <button class="choose3" onclick="destroyChart(2)">Day after Tomorow</button>
+        </div>
+
+        <div class="city">
+            <input id="city-typing" type="text" name="city" style="width: 100px;" onkeyup="guessCity()"  >
+            <button onclick="getCity()" > Submit </button > 
+        </div>
+
+        
+        <div id="choosing-guess"></div>
+
+    </div>
+    
+
+</body>
+</html>
