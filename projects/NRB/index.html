@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRB Consulting Group</title>
+    <link rel="stylesheet" href="style/all.css">
+</head>
+<body>
+
+    <section>
+        <div class="header">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="logo" >
+            </div>
+
+            
+
+            <div class="header-contacts">
+
+                <div class="header-menu">
+                    <img src="img/burger-menu.png" alt="menu" onclick="showMenu()">
+                </div>
+
+
+                <div class="header-contacts--menu" id="menu">
+                    <div class="menu-icons">
+                        <div> 
+                            <img class="menu-icons--icon" src="img/tel.png" alt="telephone" >
+                        </div>
+
+                        <div>
+                            <img class="menu-icons--icon" src="img/loc.png" alt="location">
+                        </div>
+
+                        <div>
+                            <img class="menu-icons--icon" src="img/mail.png" alt="mail">
+                        </div>
+                    </div>
+                    <span onclick="closeMenu()">&#9938;</span>
+                </div>
+
+
+
+                <div class="header-contacts--up">
+                    <div> 
+                        <img src="img/tel.png" alt="telephone">
+                        <p>+7 (7172) 25-20-60 / +7 (708) 425-20-60 </p>
+                    </div>
+
+                    <div>
+                        <img src="img/loc.png" alt="location">
+                        <p>г. Нур-Султан,
+                            ул. Ж.Нажимеденова 20</p>
+                    </div>
+
+                    <div>
+                        <img src="img/mail.png" alt="mail">
+                        <p>info@nrb-consulting.kz</p>
+                    </div>
+                </div>
+
+                <div class="header-contacts--down">
+                    <a href="">О компании</a>
+                    <a href="">Услуги</a>
+                    <a href="">Преимущества</a>
+                    <a href="">Контакты</a>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+        <div class="consult">
+            <p>Комплексный<br>консалтинг</p>
+            <p>Мы поможем Вашему бизнесу достичь успеха!</p>
+            <button>получить консультацию</button>
+            <div>
+                <span><img src="img/Facebook.png" alt=""></span>
+                <span><img src="img/Instagram.png" alt=""></span>
+                <span><img src="img/Telegram.png" alt=""></span>
+            </div>
+        </div>
+    </section>
+    <aside id="as" class="as" onclick="closeMenu()"></aside>
+    <aside id="as2" class="as2" onclick="closeMenu()"></aside>
+
+    <script src="script/index.js"></script>
+</body>
+</html>
